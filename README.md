@@ -1,70 +1,58 @@
-# Getting Started with Create React App
+# Printify (UPrinting Inspired)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a front-end web application that replicates the core features of a print-on-demand platform like UPrinting. This project was built to demonstrate a complete, interactive user flow—from browsing products to a simulated login and account management—all using React.
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+* **Dynamic Homepage:** Features a hero section with a functional product search.
+* **Product Catalog:** Displays a grid of available products fetched from a mock data source.
+* **Dynamic Product Pages:** Product details, options, and pricing load dynamically based on the URL.
+* **Interactive Price Calculator:** The total price updates in real-time as the user selects different product options (size, material, quantity).
+* **Simulated User Authentication:** A complete, frontend-only user flow:
+    * User sign-up that "saves" new users to `localStorage`.
+    * User login that checks credentials against the list of saved users.
+    * Dynamic header that shows "Login" or "My Account / Logout" based on auth state.
+* **Global State Management:** Uses React's Context API to manage:
+    * The shopping cart across all components.
+    * The current user's session.
+* **Functional Shopping Cart:**
+    * View all items added to the cart.
+    * Remove items from the cart.
+    * See a complete order summary with a calculated total.
+* **Functional "My Account" Page:** A complete, tabbed dashboard for logged-in users, including:
+    * **Order History:** Displays a mock list of past orders.
+    * **Profile & Settings:** A form to edit user details.
+    * **Addresses & Payments:** View, add, and save new addresses and payment methods, all persisted in `localStorage`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Technologies Used
 
-### `npm test`
+* **React.js:** For building the user interface.
+* **React Router:** For client-side routing and navigation.
+* **React Context API:** For global state management (authentication and shopping cart).
+* **React Icons:** For UI icons.
+* **CSS:** For custom styling, layout, and animations.
+* **JavaScript (ES6+):** For application logic.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🚀 Getting Started
 
-### `npm run build`
+To get a local copy up and running, follow these simple steps.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  **Clone the repository**
+    ```sh
+    git clone [https://github.com/kammari-ashritha/printify-clone.git](https://github.com/kammari-ashritha/printify-clone.git)
+    ```
+2.  **Navigate to the project directory**
+    ```sh
+    cd printify-clone
+    ```
+3.  **Install NPM packages**
+    ```sh
+    npm install
+    ```
+4.  **Run the development server**
+    ```sh
+    npm start
+    ```
+5.  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
