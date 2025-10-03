@@ -1,0 +1,76 @@
+.quote-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.quote-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.quote-header h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.quote-header p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+.quote-form {
+  background-color: #fff;
+  padding: 2.5rem;
+  border-radius: 12px;
+  border: 1px solid #eee;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+
+.form-group {
+  margin-bottom: 1.5rem;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+.form-group-split {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.form-group-split .form-group {
+  width: 100%;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2c3e50;
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: #46627f;
+}

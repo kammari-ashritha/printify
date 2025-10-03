@@ -1,0 +1,41 @@
+.trust-badges-section {
+  padding: 60px 0;
+  background-color: #ffffff;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  font-weight: 700;
+  color: #333;
+}
+
+.badges-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 2rem;
+  text-align: center;
+}
+
+.badge {
+  max-width: 300px;
+}
+
+.badge-icon {
+  font-size: 3rem;
+  color: #00AEEF; /* Vibrant Blue */
+}
+
+.badge-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge-text {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}

@@ -1,0 +1,59 @@
+.signup-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  min-height: 80vh;
+}
+.signup-form-wrapper {
+  background: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+.signup-form-wrapper h2 {
+  margin-top: 0;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+.signup-btn {
+  width: 100%;
+  padding: 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #32CD32; /* Vibrant Green */
+  color: white;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+.login-link {
+  margin-top: 1.5rem;
+  color: #555;
+}
+.login-link a {
+  color: #007bff;
+  font-weight: bold;
+}
+/* This reuses styles from LoginPage.css, but it's good practice */
+.form-group {
+  margin-bottom: 1.5rem;
+  text-align: left;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+.form-group input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 1rem;
+}
