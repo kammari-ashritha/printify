@@ -45,7 +45,7 @@ To get a local copy up and running, follow these simple steps.
     ```
 2.  **Navigate to the project directory**
     ```sh
-    cd printify-clone
+    cd printify
     ```
 3.  **Install NPM packages**
     ```sh
